@@ -160,3 +160,9 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'vijeth@realmimpex.com'
 EMAIL_HOST_PASSWORD = 'vijeth@12345'
 EMAIL_USE_TLS = True
+
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
