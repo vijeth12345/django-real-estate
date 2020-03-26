@@ -1,3 +1,13 @@
 1. Created a django project
 2. To install environment use below command
     python -m venv ./env
+
+3. To install django we use pip install django
+
+4. To start a project we use django-admin startproject "project_name" .
+
+5. To create apps we use the following command
+
+6. To create superuser we use python manage.py createsuperuser
+
+7. To create the app we use following command python manage.py startapp "app_name"

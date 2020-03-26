@@ -1,0 +1,51 @@
+MODEL/DB FIELDS
+
+
+###LISTING
+
+ID: INT
+realtor: INT (FOREIGN KEY [realtor])
+title: STR
+address: STR 
+city: STR 
+state: STR 
+zipcode: STR 
+description: TEXT
+price: INT
+bedrooms: INT
+bathrooms: INT
+garage: INT [0]
+sqft: INT
+is_published: BOOLEAN [true]
+lot_size: FLOAT
+list_date: DATE
+photo_main: STR
+photo_1: STR
+photo_2: STR
+photo_3: STR
+photo_4: STR
+photo_5: STR
+photo_6: STR
+
+
+###REALTORS
+id: INT
+name: STR
+email: STR
+description: TEXT
+photo: STR
+phone: STR
+is_mvp: BOOLEAN [true]
+hire_date: DATE
+
+
+###REALTORS
+id: INT
+user_id: INT
+listing: INT
+listing_id: INT
+message: TEXT
+email: STR
+name: STR
+phone: STR
+contact_date: DATE
